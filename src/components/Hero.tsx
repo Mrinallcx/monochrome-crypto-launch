@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
       {/* Geometric background elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-64 h-64 border border-black/10 rotate-45" />
