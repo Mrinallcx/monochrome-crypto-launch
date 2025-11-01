@@ -3,14 +3,14 @@ const About = () => {
     <section className="py-24 px-4">
       <div className="max-w-[700px] mx-auto">
         <div className="mb-4">
-          <span className="text-sm tracking-widest uppercase text-white/50">About</span>
+          <span className="text-sm tracking-widest uppercase text-black/50">About</span>
         </div>
         
         <h2 className="text-4xl md:text-5xl font-bold mb-8">
           What is TOTO?
         </h2>
 
-        <div className="space-y-6 text-white/70 text-lg leading-relaxed">
+        <div className="space-y-6 text-black/70 text-lg leading-relaxed">
           <p>
             TOTO is a revolutionary cryptocurrency token designed to redefine the standards of 
             decentralized finance. Built on cutting-edge blockchain technology, TOTO offers 
@@ -24,23 +24,23 @@ const About = () => {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-8">
-            <div className="border border-white/10 p-6 hover:border-white/30 transition-colors">
-              <h3 className="text-2xl font-bold text-white mb-2">Secure</h3>
-              <p className="text-white/60 text-sm">
+            <div className="border border-black/10 p-6 hover:border-black/30 transition-colors">
+              <h3 className="text-2xl font-bold text-black mb-2">Secure</h3>
+              <p className="text-black/60 text-sm">
                 Advanced cryptographic protocols ensure maximum security for all transactions.
               </p>
             </div>
             
-            <div className="border border-white/10 p-6 hover:border-white/30 transition-colors">
-              <h3 className="text-2xl font-bold text-white mb-2">Fast</h3>
-              <p className="text-white/60 text-sm">
+            <div className="border border-black/10 p-6 hover:border-black/30 transition-colors">
+              <h3 className="text-2xl font-bold text-black mb-2">Fast</h3>
+              <p className="text-black/60 text-sm">
                 Lightning-fast transaction speeds with minimal fees for optimal efficiency.
               </p>
             </div>
             
-            <div className="border border-white/10 p-6 hover:border-white/30 transition-colors">
-              <h3 className="text-2xl font-bold text-white mb-2">Transparent</h3>
-              <p className="text-white/60 text-sm">
+            <div className="border border-black/10 p-6 hover:border-black/30 transition-colors">
+              <h3 className="text-2xl font-bold text-black mb-2">Transparent</h3>
+              <p className="text-black/60 text-sm">
                 Complete transparency through open-source code and on-chain verification.
               </p>
             </div>

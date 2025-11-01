@@ -1,19 +1,19 @@
 import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from "recharts";
 
 const data = [
-  { name: "Liquidity Pool", value: 40, color: "#FFFFFF" },
-  { name: "Public Sale", value: 25, color: "#B3B3B3" },
-  { name: "Team & Advisors", value: 15, color: "#737373" },
-  { name: "Marketing", value: 10, color: "#4D4D4D" },
-  { name: "Development", value: 10, color: "#262626" },
+  { name: "Liquidity Pool", value: 40, color: "#000000" },
+  { name: "Public Sale", value: 25, color: "#333333" },
+  { name: "Team & Advisors", value: 15, color: "#666666" },
+  { name: "Marketing", value: 10, color: "#999999" },
+  { name: "Development", value: 10, color: "#CCCCCC" },
 ];
 
 const Tokenomics = () => {
   return (
-    <section className="py-24 px-4 border-t border-white/10">
+    <section className="py-24 px-4 border-t border-black/10">
       <div className="max-w-[700px] mx-auto">
         <div className="mb-4">
-          <span className="text-sm tracking-widest uppercase text-white/50">Economics</span>
+          <span className="text-sm tracking-widest uppercase text-black/50">Economics</span>
         </div>
         
         <h2 className="text-4xl md:text-5xl font-bold mb-12">
@@ -41,9 +41,10 @@ const Tokenomics = () => {
                 </Pie>
                 <Tooltip 
                   contentStyle={{ 
-                    backgroundColor: "#000", 
-                    border: "1px solid #333",
-                    borderRadius: "0.5rem"
+                    backgroundColor: "#fff", 
+                    border: "1px solid #ddd",
+                    borderRadius: "0.5rem",
+                    color: "#000"
                   }}
                 />
                 <Legend 
@@ -58,26 +59,26 @@ const Tokenomics = () => {
 
           <div className="space-y-4">
             {data.map((item, index) => (
-              <div key={index} className="flex justify-between items-center border-b border-white/10 pb-3">
+              <div key={index} className="flex justify-between items-center border-b border-black/10 pb-3">
                 <div className="flex items-center gap-3">
                   <div 
                     className="w-4 h-4 rounded-full" 
                     style={{ backgroundColor: item.color }}
                   />
-                  <span className="text-white/80">{item.name}</span>
+                  <span className="text-black/80">{item.name}</span>
                 </div>
-                <span className="text-white font-bold">{item.value}%</span>
+                <span className="text-black font-bold">{item.value}%</span>
               </div>
             ))}
             
-            <div className="pt-6 border-t border-white/20 mt-6">
+            <div className="pt-6 border-t border-black/20 mt-6">
               <div className="flex justify-between mb-2">
-                <span className="text-white/60">Total Supply</span>
-                <span className="text-white font-bold">1,000,000,000</span>
+                <span className="text-black/60">Total Supply</span>
+                <span className="text-black font-bold">1,000,000,000</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-white/60">Initial Circulating</span>
-                <span className="text-white font-bold">400,000,000</span>
+                <span className="text-black/60">Initial Circulating</span>
+                <span className="text-black font-bold">400,000,000</span>
               </div>
             </div>
           </div>
