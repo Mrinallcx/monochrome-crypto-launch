@@ -1,10 +1,12 @@
 import { Shield, Lock, Zap, Globe, TrendingUp, Users, Award, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const TiaToken = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <Navbar />
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
         <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
