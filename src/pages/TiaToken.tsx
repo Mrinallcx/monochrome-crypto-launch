@@ -1,6 +1,7 @@
 import { Shield, Lock, Zap, Globe, TrendingUp, Users, Award, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
+import TiaTokenStats from "@/components/TiaTokenStats";
 import Footer from "@/components/Footer";
 
 const TiaToken = () => {
@@ -122,6 +123,9 @@ const TiaToken = () => {
           </div>
         </div>
       </section>
+
+      {/* Live Token Stats */}
+      <TiaTokenStats />
 
       {/* Trade TIA on Top Platforms */}
       <section className="py-20 px-4 bg-black/5">
