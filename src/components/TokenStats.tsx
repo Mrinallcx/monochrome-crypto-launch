@@ -61,7 +61,7 @@ const TokenStats = () => {
               <span className="text-sm text-black/50 uppercase tracking-wider">Current Price</span>
             </div>
             <div className="text-3xl font-bold">
-              ${data?.market_data?.current_price?.usd?.toFixed(6) || "N/A"}
+              ${data?.market_data?.current_price?.usd?.toFixed(10) || "N/A"}
             </div>
           </div>
 
