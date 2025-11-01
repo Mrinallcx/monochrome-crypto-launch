@@ -8,7 +8,7 @@ const Navbar = () => {
           TOTO
         </div>
         
-        <Button variant="default" size="sm">
+        <Button variant="default" size="sm" className="rounded-full">
           Buy Now
         </Button>
       </div>

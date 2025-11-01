@@ -20,7 +20,7 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button 
             size="lg" 
-            className="bg-black text-white hover:bg-black/90 transition-all duration-300 group"
+            className="bg-black text-white hover:bg-black/90 transition-all duration-300 group rounded-full"
           >
             Get Started
             <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -28,9 +28,9 @@ const Hero = () => {
           <Button 
             size="lg" 
             variant="outline" 
-            className="border-black text-black hover:bg-black hover:text-white transition-all duration-300"
+            className="border-black text-black hover:bg-black hover:text-white transition-all duration-300 rounded-full"
           >
-          View Documentation
+            View Documentation
           </Button>
         </div>
       </div>
