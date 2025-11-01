@@ -2,13 +2,13 @@ import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background border-b border-border">
-      <div className="container mx-auto px-6 h-16 flex items-center justify-between">
+    <nav className="fixed top-0 left-0 right-0 z-50 flex justify-center pt-4 px-4">
+      <div className="w-full max-w-[700px] bg-background border border-border rounded-full px-6 h-14 flex items-center justify-between shadow-sm">
         <div className="text-2xl font-bold text-foreground">
           TOTO
         </div>
         
-        <Button variant="default" size="default">
+        <Button variant="default" size="sm">
           Buy Now
         </Button>
       </div>
