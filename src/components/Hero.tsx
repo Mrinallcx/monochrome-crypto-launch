@@ -4,13 +4,6 @@ import { Button } from "@/components/ui/button";
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
-      {/* Geometric background elements */}
-      <div className="absolute inset-0">
-        <div className="absolute top-20 left-10 w-64 h-64 border border-black/10 rotate-45" />
-        <div className="absolute bottom-20 right-10 w-96 h-96 border border-black/5 rotate-12" />
-        <div className="absolute top-1/2 left-1/4 w-32 h-32 border border-black/20" />
-      </div>
-
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
         <div className="inline-block mb-6 px-4 py-2 border border-black/20 rounded-full">
           <span className="text-sm tracking-wider uppercase text-black/80">Next Generation Token</span>
