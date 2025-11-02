@@ -123,40 +123,6 @@ const TiaToken = () => {
         </div>
       </section>
 
-      {/* Trade TIA on Top Platforms */}
-      <section className="py-20 px-4 bg-black/5">
-        <div className="max-w-[700px] mx-auto">
-          <h2 className="text-4xl font-light text-center mb-4">Trade TIA on Top Platforms</h2>
-          <p className="text-center text-black/60 mb-12 font-light">Available on leading cryptocurrency exchanges</p>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-background border border-black/20 p-8 rounded-lg hover:border-black/40 transition-colors text-center">
-              <div className="text-4xl font-light mb-2">Binance</div>
-              <p className="text-black/60 mb-4 font-light">World's largest exchange</p>
-              <Button variant="outline" size="sm" className="rounded-full border-black text-black hover:bg-black hover:text-white">
-                Trade Now
-              </Button>
-            </div>
-            
-            <div className="bg-background border border-black/20 p-8 rounded-lg hover:border-black/40 transition-colors text-center">
-              <div className="text-4xl font-light mb-2">Coinbase</div>
-              <p className="text-black/60 mb-4 font-light">Trusted by millions</p>
-              <Button variant="outline" size="sm" className="rounded-full border-black text-black hover:bg-black hover:text-white">
-                Trade Now
-              </Button>
-            </div>
-            
-            <div className="bg-background border border-black/20 p-8 rounded-lg hover:border-black/40 transition-colors text-center">
-              <div className="text-4xl font-light mb-2">Kraken</div>
-              <p className="text-black/60 mb-4 font-light">Secure and reliable</p>
-              <Button variant="outline" size="sm" className="rounded-full border-black text-black hover:bg-black hover:text-white">
-                Trade Now
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <Footer />
     </div>
   );
