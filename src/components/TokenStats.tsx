@@ -1,9 +1,17 @@
 import { useQuery } from "@tanstack/react-query";
 import { TrendingUp, TrendingDown, DollarSign, Activity } from "lucide-react";
 
+// CoinGecko API Key (publishable - safe for client-side use)
+const COINGECKO_API_KEY = "CG-z6ZMqu1K3bGgGuHhk2hJX4Lm";
+
 const fetchTokenData = async () => {
   const response = await fetch(
-    "https://api.coingecko.com/api/v3/coins/toto"
+    "https://api.coingecko.com/api/v3/coins/toto",
+    {
+      headers: {
+        "x-cg-demo-api-key": COINGECKO_API_KEY,
+      },
+    }
   );
   if (!response.ok) {
     throw new Error("Failed to fetch token data");
