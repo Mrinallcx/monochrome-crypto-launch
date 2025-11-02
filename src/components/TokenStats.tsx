@@ -6,10 +6,10 @@ const COINGECKO_API_KEY = "CG-z6ZMqu1K3bGgGuHhk2hJX4Lm";
 
 const fetchTokenData = async () => {
   const response = await fetch(
-    "https://api.coingecko.com/api/v3/coins/toto",
+    "https://api.coingecko.com/api/v3/coins/tiamonds",
     {
       headers: {
-        "x-cg-demo-api-key": COINGECKO_API_KEY,
+        "x-cg-pro-api-key": COINGECKO_API_KEY,
       },
     }
   );
@@ -21,7 +21,7 @@ const fetchTokenData = async () => {
 
 const TokenStats = () => {
   const { data, isLoading, error } = useQuery({
-    queryKey: ["tokenData"],
+    queryKey: ["tokenData", "tiamonds"],
     queryFn: fetchTokenData,
     refetchInterval: 60000, // Refetch every minute
   });
