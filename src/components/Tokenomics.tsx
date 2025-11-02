@@ -59,10 +59,10 @@ const Tokenomics = () => {
 
           <div className="space-y-4">
             {data.map((item, index) => (
-              <div key={index} className="flex justify-between items-center border-b border-black/10 pb-3">
+              <div key={index} className="flex justify-between items-center border-b border-black/10 pb-3 transition-transform duration-200 hover:scale-105 cursor-pointer">
                 <div className="flex items-center gap-3">
                   <div 
-                    className="w-4 h-4 rounded-full" 
+                    className="w-4 h-4 rounded-full transition-transform duration-200" 
                     style={{ backgroundColor: item.color }}
                   />
                   <span className="text-black/80 font-light">{item.name}</span>
