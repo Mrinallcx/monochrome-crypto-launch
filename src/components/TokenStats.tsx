@@ -6,22 +6,24 @@ const COINGECKO_API_KEY = "CG-z6ZMqu1K3bGgGuHhk2hJX4Lm";
 
 const fetchTokenData = async () => {
   const response = await fetch(
-    "https://api.coingecko.com/api/v3/coins/tiamonds",
+    "https://api.coingecko.com/api/v3/coins/toto?localization=false&community_data=false&developer_data=false&sparkline=false",
     {
       headers: {
-        "x-cg-pro-api-key": COINGECKO_API_KEY,
+        "x-cg-demo-api-key": COINGECKO_API_KEY,
       },
     }
   );
   if (!response.ok) {
-    throw new Error("Failed to fetch token data");
+    const text = await response.text().catch(() => "");
+    console.error("CoinGecko error", response.status, text);
+    throw new Error(`Failed to fetch token data: ${response.status}`);
   }
   return response.json();
 };
 
 const TokenStats = () => {
   const { data, isLoading, error } = useQuery({
-    queryKey: ["tokenData", "tiamonds"],
+    queryKey: ["tokenData", "toto"],
     queryFn: fetchTokenData,
     refetchInterval: 60000, // Refetch every minute
   });
