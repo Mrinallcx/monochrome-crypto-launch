@@ -49,25 +49,25 @@ const TiaToken = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="border border-black/20 p-6 rounded-lg hover:border-black/40 transition-colors">
-              <Shield className="w-12 h-12 mb-4" />
+              <Shield className="w-8 h-8 mb-4" />
               <h3 className="text-xl font-light mb-2">Enhanced Security</h3>
               <p className="text-black/60 font-light">Blockchain technology ensures your assets are protected with military-grade encryption</p>
             </div>
             
             <div className="border border-black/20 p-6 rounded-lg hover:border-black/40 transition-colors">
-              <Zap className="w-12 h-12 mb-4" />
+              <Zap className="w-8 h-8 mb-4" />
               <h3 className="text-xl font-light mb-2">Instant Transactions</h3>
               <p className="text-black/60 font-light">Transfer assets globally in seconds with minimal fees and maximum efficiency</p>
             </div>
             
             <div className="border border-black/20 p-6 rounded-lg hover:border-black/40 transition-colors">
-              <Globe className="w-12 h-12 mb-4" />
+              <Globe className="w-8 h-8 mb-4" />
               <h3 className="text-xl font-light mb-2">Global Access</h3>
               <p className="text-black/60 font-light">Access your tokenized assets from anywhere in the world, 24/7</p>
             </div>
             
             <div className="border border-black/20 p-6 rounded-lg hover:border-black/40 transition-colors">
-              <Lock className="w-12 h-12 mb-4" />
+              <Lock className="w-8 h-8 mb-4" />
               <h3 className="text-xl font-light mb-2">Full Ownership</h3>
               <p className="text-black/60 font-light">True ownership and control over your digital assets with blockchain verification</p>
             </div>
@@ -83,19 +83,19 @@ const TiaToken = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-background border border-black/20 p-6 rounded-lg hover:border-black/40 transition-colors">
-              <TrendingUp className="w-12 h-12 mb-4" />
+              <TrendingUp className="w-8 h-8 mb-4" />
               <h3 className="text-xl font-light mb-2">Growth Potential</h3>
               <p className="text-black/60 font-light">Benefit from the expanding tokenization market</p>
             </div>
             
             <div className="bg-background border border-black/20 p-6 rounded-lg hover:border-black/40 transition-colors">
-              <Users className="w-12 h-12 mb-4" />
+              <Users className="w-8 h-8 mb-4" />
               <h3 className="text-xl font-light mb-2">Community Driven</h3>
               <p className="text-black/60 font-light">Join a global community of token holders</p>
             </div>
             
             <div className="bg-background border border-black/20 p-6 rounded-lg hover:border-black/40 transition-colors">
-              <Award className="w-12 h-12 mb-4" />
+              <Award className="w-8 h-8 mb-4" />
               <h3 className="text-xl font-light mb-2">Premium Benefits</h3>
               <p className="text-black/60 font-light">Exclusive rewards and governance rights</p>
             </div>
