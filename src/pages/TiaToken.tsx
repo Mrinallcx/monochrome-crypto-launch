@@ -10,10 +10,6 @@ const TiaToken = () => {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
         <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
-          <div className="inline-block mb-6 px-4 py-2 border border-black/20 rounded-full">
-            <span className="text-sm tracking-wider uppercase text-black/80 font-medium">Tokenization Platform</span>
-          </div>
-          
           <h1 className="text-6xl md:text-8xl font-light mb-6 tracking-tight">
             $TIA Token
           </h1>
