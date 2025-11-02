@@ -6,17 +6,17 @@ const Footer = () => {
       <div className="max-w-[700px] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4">TOTO</h3>
-            <p className="text-black/60 text-sm">
+            <h3 className="text-2xl font-medium mb-4">TOTO</h3>
+            <p className="text-black/60 text-sm font-light">
               Building the future of decentralized finance, one block at a time.
             </p>
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wider mb-4 text-black/80">
+            <h4 className="text-sm font-medium uppercase tracking-wider mb-4 text-black/80">
               Resources
             </h4>
-            <ul className="space-y-2 text-sm">
+            <ul className="space-y-2 text-sm font-light">
               <li>
                 <a href="#" className="text-black/60 hover:text-black transition-colors">
                   Documentation
@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wider mb-4 text-black/80">
+            <h4 className="text-sm font-medium uppercase tracking-wider mb-4 text-black/80">
               Community
             </h4>
             <div className="flex gap-4">
@@ -70,9 +70,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-black/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-black/40">
+        <div className="pt-8 border-t border-black/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-black/40 font-light">
           <p>© 2024 TOTO Token. All rights reserved.</p>
-          <div className="flex gap-6">
+          <div className="flex gap-6 font-light">
             <a href="#" className="hover:text-black transition-colors">
               Privacy Policy
             </a>

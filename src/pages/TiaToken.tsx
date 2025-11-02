@@ -11,14 +11,14 @@ const TiaToken = () => {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
         <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
           <div className="inline-block mb-6 px-4 py-2 border border-black/20 rounded-full">
-            <span className="text-sm tracking-wider uppercase text-black/80">Tokenization Platform</span>
+            <span className="text-sm tracking-wider uppercase text-black/80 font-medium">Tokenization Platform</span>
           </div>
           
-          <h1 className="text-6xl md:text-8xl font-bold mb-6 tracking-tight">
+          <h1 className="text-6xl md:text-8xl font-light mb-6 tracking-tight">
             $TIA Token
           </h1>
           
-          <p className="text-xl md:text-2xl text-black/70 mb-12 max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl text-black/70 mb-12 max-w-2xl mx-auto font-normal">
             Revolutionizing digital asset ownership through blockchain tokenization
           </p>
 
@@ -44,32 +44,32 @@ const TiaToken = () => {
       {/* Advantages of Tokenization */}
       <section className="py-20 px-4">
         <div className="max-w-[700px] mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-4">Advantages of Tokenization</h2>
-          <p className="text-center text-black/60 mb-12">Unlock the power of blockchain technology</p>
+          <h2 className="text-4xl font-light text-center mb-4">Advantages of Tokenization</h2>
+          <p className="text-center text-black/60 mb-12 font-light">Unlock the power of blockchain technology</p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="border border-black/20 p-6 rounded-lg hover:border-black/40 transition-colors">
               <Shield className="w-12 h-12 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Enhanced Security</h3>
-              <p className="text-black/60">Blockchain technology ensures your assets are protected with military-grade encryption</p>
+              <h3 className="text-xl font-light mb-2">Enhanced Security</h3>
+              <p className="text-black/60 font-light">Blockchain technology ensures your assets are protected with military-grade encryption</p>
             </div>
             
             <div className="border border-black/20 p-6 rounded-lg hover:border-black/40 transition-colors">
               <Zap className="w-12 h-12 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Instant Transactions</h3>
-              <p className="text-black/60">Transfer assets globally in seconds with minimal fees and maximum efficiency</p>
+              <h3 className="text-xl font-light mb-2">Instant Transactions</h3>
+              <p className="text-black/60 font-light">Transfer assets globally in seconds with minimal fees and maximum efficiency</p>
             </div>
             
             <div className="border border-black/20 p-6 rounded-lg hover:border-black/40 transition-colors">
               <Globe className="w-12 h-12 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Global Access</h3>
-              <p className="text-black/60">Access your tokenized assets from anywhere in the world, 24/7</p>
+              <h3 className="text-xl font-light mb-2">Global Access</h3>
+              <p className="text-black/60 font-light">Access your tokenized assets from anywhere in the world, 24/7</p>
             </div>
             
             <div className="border border-black/20 p-6 rounded-lg hover:border-black/40 transition-colors">
               <Lock className="w-12 h-12 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Full Ownership</h3>
-              <p className="text-black/60">True ownership and control over your digital assets with blockchain verification</p>
+              <h3 className="text-xl font-light mb-2">Full Ownership</h3>
+              <p className="text-black/60 font-light">True ownership and control over your digital assets with blockchain verification</p>
             </div>
           </div>
         </div>
@@ -78,26 +78,26 @@ const TiaToken = () => {
       {/* TIA Token: Secure Your Digital Assets Today */}
       <section className="py-20 px-4 bg-black/5">
         <div className="max-w-[700px] mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-4">TIA Token: Secure Your Digital Assets Today | Tiamonds</h2>
-          <p className="text-center text-black/60 mb-12">The future of digital asset management</p>
+          <h2 className="text-4xl font-light text-center mb-4">TIA Token: Secure Your Digital Assets Today | Tiamonds</h2>
+          <p className="text-center text-black/60 mb-12 font-light">The future of digital asset management</p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-background border border-black/20 p-6 rounded-lg hover:border-black/40 transition-colors">
               <TrendingUp className="w-12 h-12 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Growth Potential</h3>
-              <p className="text-black/60">Benefit from the expanding tokenization market</p>
+              <h3 className="text-xl font-light mb-2">Growth Potential</h3>
+              <p className="text-black/60 font-light">Benefit from the expanding tokenization market</p>
             </div>
             
             <div className="bg-background border border-black/20 p-6 rounded-lg hover:border-black/40 transition-colors">
               <Users className="w-12 h-12 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Community Driven</h3>
-              <p className="text-black/60">Join a global community of token holders</p>
+              <h3 className="text-xl font-light mb-2">Community Driven</h3>
+              <p className="text-black/60 font-light">Join a global community of token holders</p>
             </div>
             
             <div className="bg-background border border-black/20 p-6 rounded-lg hover:border-black/40 transition-colors">
               <Award className="w-12 h-12 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Premium Benefits</h3>
-              <p className="text-black/60">Exclusive rewards and governance rights</p>
+              <h3 className="text-xl font-light mb-2">Premium Benefits</h3>
+              <p className="text-black/60 font-light">Exclusive rewards and governance rights</p>
             </div>
           </div>
         </div>
@@ -107,8 +107,8 @@ const TiaToken = () => {
       <section className="py-20 px-4">
         <div className="max-w-[700px] mx-auto">
           <div className="border-2 border-black p-8 rounded-lg text-center">
-            <h3 className="text-3xl font-bold mb-4">Why Choose TIA Token?</h3>
-            <p className="text-lg text-black/70 mb-6">
+            <h3 className="text-3xl font-light mb-4">Why Choose TIA Token?</h3>
+            <p className="text-lg text-black/70 mb-6 font-light">
               TIA Token represents the next generation of digital assets, combining cutting-edge blockchain technology 
               with real-world utility. Our platform offers unparalleled security, transparency, and efficiency for 
               tokenizing and managing digital assets.
@@ -126,29 +126,29 @@ const TiaToken = () => {
       {/* Trade TIA on Top Platforms */}
       <section className="py-20 px-4 bg-black/5">
         <div className="max-w-[700px] mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-4">Trade TIA on Top Platforms</h2>
-          <p className="text-center text-black/60 mb-12">Available on leading cryptocurrency exchanges</p>
+          <h2 className="text-4xl font-light text-center mb-4">Trade TIA on Top Platforms</h2>
+          <p className="text-center text-black/60 mb-12 font-light">Available on leading cryptocurrency exchanges</p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-background border border-black/20 p-8 rounded-lg hover:border-black/40 transition-colors text-center">
-              <div className="text-4xl font-bold mb-2">Binance</div>
-              <p className="text-black/60 mb-4">World's largest exchange</p>
+              <div className="text-4xl font-light mb-2">Binance</div>
+              <p className="text-black/60 mb-4 font-light">World's largest exchange</p>
               <Button variant="outline" size="sm" className="rounded-full border-black text-black hover:bg-black hover:text-white">
                 Trade Now
               </Button>
             </div>
             
             <div className="bg-background border border-black/20 p-8 rounded-lg hover:border-black/40 transition-colors text-center">
-              <div className="text-4xl font-bold mb-2">Coinbase</div>
-              <p className="text-black/60 mb-4">Trusted by millions</p>
+              <div className="text-4xl font-light mb-2">Coinbase</div>
+              <p className="text-black/60 mb-4 font-light">Trusted by millions</p>
               <Button variant="outline" size="sm" className="rounded-full border-black text-black hover:bg-black hover:text-white">
                 Trade Now
               </Button>
             </div>
             
             <div className="bg-background border border-black/20 p-8 rounded-lg hover:border-black/40 transition-colors text-center">
-              <div className="text-4xl font-bold mb-2">Kraken</div>
-              <p className="text-black/60 mb-4">Secure and reliable</p>
+              <div className="text-4xl font-light mb-2">Kraken</div>
+              <p className="text-black/60 mb-4 font-light">Secure and reliable</p>
               <Button variant="outline" size="sm" className="rounded-full border-black text-black hover:bg-black hover:text-white">
                 Trade Now
               </Button>

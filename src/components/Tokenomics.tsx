@@ -13,10 +13,10 @@ const Tokenomics = () => {
     <section className="py-24 px-4 border-t border-black/10">
       <div className="max-w-[700px] mx-auto">
         <div className="mb-4">
-          <span className="text-sm tracking-widest uppercase text-black/50">Economics</span>
+          <span className="text-sm tracking-widest uppercase text-black/50 font-light">Economics</span>
         </div>
         
-        <h2 className="text-4xl md:text-5xl font-bold mb-12">
+        <h2 className="text-4xl md:text-5xl font-light mb-12">
           Tokenomics
         </h2>
 
@@ -65,20 +65,20 @@ const Tokenomics = () => {
                     className="w-4 h-4 rounded-full" 
                     style={{ backgroundColor: item.color }}
                   />
-                  <span className="text-black/80">{item.name}</span>
+                  <span className="text-black/80 font-light">{item.name}</span>
                 </div>
-                <span className="text-black font-bold">{item.value}%</span>
+                <span className="text-black font-semibold">{item.value}%</span>
               </div>
             ))}
             
             <div className="pt-6 border-t border-black/20 mt-6">
               <div className="flex justify-between mb-2">
-                <span className="text-black/60">Total Supply</span>
-                <span className="text-black font-bold">1,000,000,000</span>
+                <span className="text-black/60 font-light">Total Supply</span>
+                <span className="text-black font-semibold">1,000,000,000</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-black/60">Initial Circulating</span>
-                <span className="text-black font-bold">400,000,000</span>
+                <span className="text-black/60 font-light">Initial Circulating</span>
+                <span className="text-black font-semibold">400,000,000</span>
               </div>
             </div>
           </div>

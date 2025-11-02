@@ -37,10 +37,10 @@ const FAQ = () => {
     <section className="py-24 px-4 border-t border-black/10">
       <div className="max-w-[700px] mx-auto">
         <div className="mb-4">
-          <span className="text-sm tracking-widest uppercase text-black/50">Support</span>
+          <span className="text-sm tracking-widest uppercase text-black/50 font-light">Support</span>
         </div>
         
-        <h2 className="text-4xl md:text-5xl font-bold mb-12">
+        <h2 className="text-4xl md:text-5xl font-light mb-12">
           Frequently Asked Questions
         </h2>
 
@@ -52,9 +52,9 @@ const FAQ = () => {
               className="border border-black/10 px-6 rounded-none data-[state=open]:border-black/30 transition-colors"
             >
               <AccordionTrigger className="text-left hover:no-underline py-6">
-                <span className="text-lg font-medium">{faq.question}</span>
+                <span className="text-lg font-light">{faq.question}</span>
               </AccordionTrigger>
-              <AccordionContent className="text-black/70 pb-6 leading-relaxed">
+              <AccordionContent className="text-black/70 pb-6 leading-relaxed font-light">
                 {faq.answer}
               </AccordionContent>
             </AccordionItem>
